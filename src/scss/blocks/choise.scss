@@ -41,11 +41,11 @@
     left: 0;
     right: 0;
     height: 100%;
-    background-color: rgba(36, 36, 36, 0.8); /* цвет фона */
+    background-color: rgba(35, 35, 35, 0.8); /* цвет фона */
     padding: 10px 10px 0px  ;
     backdrop-filter: blur(2px); /* размытие фона */
     transition: top 0.3s ease; /* плавное изменение положения */
-    pointer-events: none; /* блокируем события мыши, чтобы наведение на текст не считалось наведением на .tovar_card */
+    // pointer-events: none; /* блокируем события мыши, чтобы наведение на текст не считалось наведением на .tovar_card */
   }
   
   .choise_pic:hover .hover_text {
