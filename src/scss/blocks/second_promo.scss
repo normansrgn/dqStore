@@ -1,0 +1,31 @@
+.promo_sec_image {
+  height: 730px;
+  background-repeat: no-repeat;
+}
+
+.second_promo {
+  justify-content: space-between;
+  display: flex;
+
+  .promo_sec_textblock {
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 31px;
+    width: 494px;
+
+    .promo_sec_text {
+      font-size: 50px;
+      font-weight: 500;
+      max-height: 100%;
+    }
+
+    .promo_sec_disc {
+      font-weight: 100;
+      font-size: 20px;
+    }
+  }
+}

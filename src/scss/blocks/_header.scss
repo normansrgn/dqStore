@@ -25,3 +25,25 @@
     gap: 10px;
     font-weight: bold;
 }
+
+.head_nav_item {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; // Установите желаемую толщину подчеркивания
+  
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px; // Установите желаемую толщину подчеркивания
+      background-color: #CF84A5; // Цвет подчеркивания
+      transition: width 0.3s ease; // Время и стиль анимации
+    }
+  
+    &:hover:after {
+      width: 100%; // Ширина подчеркивания при наведении
+    }
+  }
+  
