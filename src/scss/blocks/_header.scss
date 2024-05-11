@@ -4,11 +4,24 @@
 }
 
 ._header_cont {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.logo_block {
     display: flex;
     align-items: center;
 }
 
 .logo_text {
     font-size: 25px;
+    font-weight: bold;
+}
+
+.head_nav_list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-weight: bold;
 }
