@@ -1,0 +1,27 @@
+<svg width="45.000000" height="45.000000" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip0_216">
+			<rect id="632e09f93c0e35587ea9bda8_graphic-Design-icon.svg" width="45.000000" height="45.000000" transform="translate(0.000000 -0.015625)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient id="paint_linear_0_217_0" x1="8.092773" y1="15.171415" x2="36.462547" y2="15.171415" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#6000DB"/>
+			<stop offset="1.000000" stop-color="#4600A0"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_0_218_0" x1="15.186523" y1="29.357693" x2="43.556301" y2="29.357693" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#6000DB"/>
+			<stop offset="1.000000" stop-color="#4600A0"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_0_219_0" x1="1.000000" y1="29.357573" x2="29.369776" y2="29.357573" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#6000DB"/>
+			<stop offset="1.000000" stop-color="#4600A0"/>
+		</linearGradient>
+	</defs>
+	<g clip-path="url(#clip0_216)">
+		<path id="Vector" d="M22.27 29.35C14.44 29.35 8.09 23 8.09 15.17C8.09 7.33 14.44 0.98 22.27 0.98C30.11 0.98 36.46 7.33 36.46 15.17C36.46 23 30.11 29.35 22.27 29.35Z" stroke="url(#paint_linear_0_217_0)" stroke-opacity="1.000000" stroke-width="1.200000"/>
+		<path id="Vector" d="M29.37 43.54C21.53 43.54 15.18 37.19 15.18 29.35C15.18 21.52 21.53 15.17 29.37 15.17C37.2 15.17 43.55 21.52 43.55 29.35C43.55 37.19 37.2 43.54 29.37 43.54Z" stroke="url(#paint_linear_0_218_0)" stroke-opacity="1.000000" stroke-width="1.200000"/>
+		<path id="Vector" d="M15.18 43.54C7.35 43.54 1 37.19 1 29.35C1 21.52 7.35 15.17 15.18 15.17C23.02 15.17 29.37 21.52 29.37 29.35C29.37 37.19 23.02 43.54 15.18 43.54Z" stroke="url(#paint_linear_0_219_0)" stroke-opacity="1.000000" stroke-width="1.200000"/>
+	</g>
+</svg>
