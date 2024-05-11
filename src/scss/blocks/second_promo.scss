@@ -1,6 +1,12 @@
 .promo_sec_image {
   height: 730px;
   background-repeat: no-repeat;
+  
+  
+}
+
+.promo_sec_image_img {
+  max-height: 100%;
 }
 
 .second_promo {
@@ -29,3 +35,39 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 1217px) {
+   .promo_sec_image {
+    height: 430px;
+   }
+
+}
+
+@media (max-width: 904px) {
+  .promo_sec_image {
+   display: none;
+  }
+
+  .second_promo .promo_sec_textblock {
+  width: auto;
+}
+
+}
+
+
+@media (max-width: 989px) {
+  .promo_sec_image {
+   height: 330px;
+  }
+
+}
+
+
