@@ -59,6 +59,12 @@
   }
 }
 
+@media (max-width: 750px) {
+  .choise .choise_cont .choise_title {
+    text-align: start;
+  }
+}
+
 @media (max-width: 599px) {
   .choise .choise_cont .choise_title {
     font-size: 27px;

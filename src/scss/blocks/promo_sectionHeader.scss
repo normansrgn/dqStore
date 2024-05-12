@@ -40,6 +40,17 @@
   }
 }
 
+
+@media (max-width: 500px) {
+  .promo_heder .promo_cont {
+    align-items: start;
+  }
+
+  .promo_heder .promo_cont .promo_title {
+    text-align: start;
+  }
+}
+
 @media (max-width: 717px) {
   .promo_heder .promo_cont .promo_title {
     width: auto;
