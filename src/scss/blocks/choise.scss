@@ -31,33 +31,36 @@
 }
 
 .choise_pic {
-    position: relative;
+  position: relative;
   overflow: hidden;
 }
 
-
 .hover_text {
+  position: absolute;
+  top: -106%; /* начальное положение за пределами видимости */
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(35, 35, 35, 0.8); /* цвет фона */
+  padding: 10px 10px 0px;
+  backdrop-filter: blur(2px); /* размытие фона */
+  transition: top 0.3s ease; /* плавное изменение положения */
+  // pointer-events: none; /* блокируем события мыши, чтобы наведение на текст не считалось наведением на .tovar_card */
+}
 
-    position: absolute;
-    top: -106%; /* начальное положение за пределами видимости */
-    left: 0;
-    right: 0;
-    height: 100%;
-    background-color: rgba(35, 35, 35, 0.8); /* цвет фона */
-    padding: 10px 10px 0px  ;
-    backdrop-filter: blur(2px); /* размытие фона */
-    transition: top 0.3s ease; /* плавное изменение положения */
-    // pointer-events: none; /* блокируем события мыши, чтобы наведение на текст не считалось наведением на .tovar_card */
+.choise_pic:hover .hover_text {
+  top: 0; /* при наведении блок выезжает сверху */
+}
+
+
+@media (max-width: 1000px) {
+  .hover_text {
+    display: none;
   }
-  
-  .choise_pic:hover .hover_text {
-    top: 0; /* при наведении блок выезжает сверху */
-  }
+}
 
-
-
-  @media (max-width: 599px) {
-    .choise .choise_cont .choise_title {
-font-size: 27px;
+@media (max-width: 599px) {
+  .choise .choise_cont .choise_title {
+    font-size: 27px;
   }
 }
