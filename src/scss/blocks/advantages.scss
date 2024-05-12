@@ -1,0 +1,54 @@
+.advantages {
+  border-bottom: 1px solid #3f3f3f;
+}
+
+.advantages_cont {
+  margin-top: 57px;
+  margin-bottom: 57px;
+}
+
+.advantahes_text_block {
+  text-align: center;
+
+  .advantages_title {
+    font-size: 40px;
+  }
+}
+
+.advantages_icons_block {
+  margin-top: 51px;
+  display: flex;
+  //   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  .advant_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 150px;
+    }
+
+    .advan_icon_text {
+      text-align: center;
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+      align-items: center;
+
+      .advany_icon_title {
+        font-size: 22px;
+        width: 270px;
+      }
+
+      .advant_icon_disc {
+        font-size: 11px;
+        width: 260px;
+        color: #adadad;
+      }
+    }
+  }
+}
