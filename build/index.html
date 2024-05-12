@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <header class="header__cl" data-aos="fade-down" data-aos-duration="900">
+    <header class="header__cl" >
     <div class="container">
-        <div class="_header_cont">
+        <div class="_header_cont" >
 
-            <div class="logo_block">
+            <div class="logo_block" data-aos="fade-down" data-aos-duration="900">
                 <a href="./index.html" class="url">
                     <div class="header_logo"><img src="./img/favicons/logo.svg" alt=""></div>
                 </a>
@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-            <nav class="head_nav">
+            <nav class="head_nav" data-aos="fade-down" data-aos-duration="900">
                 <ol class="head_nav_list">
                     <a href="./index.html" class="url">
                         <li class="head_nav_item">Главная</li>
@@ -38,6 +38,34 @@
                     </a>
                 </ol>
             </nav>
+
+            <div class="burger_menu">
+
+                <button id="burger__btn" type="button">
+                    <span id="burgerSpan"></span>
+                </button>
+                <aside class="burger__container">
+                    <div class="burger__content">
+                        <nav class="nav_bar burger_nav">
+                            <ul class="navigation_item">
+                                <div class="icons_basket">
+                                    <li> <a href="./profile.html" class="navigation_link"><i
+                                                class="fa-regular fa-user"></i></a></li>
+                                    <li> <a href="./basket.html" class="navigation_link"><i
+                                                class="fa-solid fa-basket-shopping"></i></a></li>
+
+                                </div>
+                                <li> <a href="./index.html" class="navigation_link">Home</a></li>
+                                <li> <a href="./shop.html" class="navigation_link">Shop</a></li>
+                                <li> <a href="./aboutus.html" class="navigation_link">About</a></li>
+                                <!-- <li> <a href="" class="navigation_link">Contact</a></li> -->
+                                <li> <a href="./log_in.html" class="navigation_link">Log In</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+            </div>
 
         </div>
 
@@ -115,6 +143,7 @@
 </section>
 
     <script src="./js/index.bundle.js"></script>
+    <script src="./js/burgermenu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
 		AOS.init();

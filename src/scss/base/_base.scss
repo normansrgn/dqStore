@@ -36,3 +36,10 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+
+@media (max-width: 580px ) {
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: auto !important;
+  }
+}

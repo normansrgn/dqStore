@@ -2,63 +2,113 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DQ&#160;Store</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" type="image/x-icon" href="./img/favicons/logo.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>DQ&#160;Store</title>
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="icon" type="image/x-icon" href="./img/favicons/logo.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
 </head>
 
 <body>
-    <header class="header__cl">
-        <div class="container">
-            <div class="_header_cont">
-                <div class="logo_block"><a href="./index.html" class="url">
-                        <div class="header_logo"><img src="./img/favicons/logo.svg" alt=""></div>
-                    </a>
-                    <div class="logo_text">Интернет магазин духов DQ</div>
-                </div>
-                <nav class="head_nav">
-                    <ol class="head_nav_list"><a href="./index.html" class="url">
-                            <li class="head_nav_item">Главная</li>
-                        </a><a href="" class="url">
-                            <li class="head_nav_item">Ассортимент</li>
-                        </a><a href="" class="url">
-                            <li class="head_nav_item">Эсклюзив</li>
-                        </a></ol>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <section class="promo_heder">
-        <div class="container">
-            <div class="promo_cont">
-                <div class="promo_title">Интернет магазин духов 'DQ'&#160;&#8212; Лучший выбор ароматов</div>
-                <div class="promo_disc">Широкий ассортимент духов для каждого</div> <a href=""><button
-                        class="promo_btn">Выберите свой аромат</button></a>
-            </div>
-        </div>
-    </section>
-    <section class="second_promo">
-        <div class="container">
-            <div class="promo_sec_textblock">
-                <div class="promo_sec_text">Широкий выбор качественных духов в&#160;Интернет магазине &#171;DQ&#187;
-                </div>
-                <div class="promo_sec_disc">Интернет магазин &#171;DQ&#187;&#160;&#8212; ваш идеальный выбор для покупки
-                    разнообразных духов. Наслаждайтесь широким ассортиментом и&#160;удобством покупки.</div>
-            </div>
-        </div>
-        <div class="promo_sec_image">
-            <picture>
-                <source srcset="./img/promoss.webp 1x" type="image/webp">
-                <source srcset="./img/promoss.jpg 1x" type="image/jpeg"> <img
-                    class="promo_sec_image_img" src="./img/promoss.jpg" alt="">
-            </picture>
-        </div>
-    </section>
-    <script src="./js/index.bundle.js"></script>
+	<header class="header__cl">
+		<div class="container">
+			<div class="_header_cont">
+				<div class="logo_block" data-aos="fade-down" data-aos-duration="900"><a href="./index.html" class="url">
+						<div class="header_logo"><img src="./img/favicons/logo.svg" alt=""></div>
+					</a>
+					<div class="logo_text">Интернет магазин духов DQ</div>
+				</div>
+				<nav class="head_nav" data-aos="fade-down" data-aos-duration="900">
+					<ol class="head_nav_list"><a href="./index.html" class="url">
+							<li class="head_nav_item">Главная</li>
+						</a><a href="" class="url">
+							<li class="head_nav_item">Ассортимент</li>
+						</a><a href="" class="url">
+							<li class="head_nav_item">Эсклюзив</li>
+						</a></ol>
+				</nav>
+				<div class="burger_menu"> <button id="burger__btn" type="button"><span id="burgerSpan"></span></button>
+					<aside class="burger__container">
+						<div class="burger__content">
+							<nav class="nav_bar burger_nav">
+								<ul class="navigation_item">
+									<div class="icons_basket">
+										<li><a href="./profile.html" class="navigation_link"><i
+													class="fa-regular fa-user"></i></a></li>
+										<li><a href="./basket.html" class="navigation_link"><i
+													class="fa-solid fa-basket-shopping"></i></a></li>
+									</div>
+									<li> <a href="./index.html" class="navigation_link">Home</a></li>
+									<li> <a href="./shop.html" class="navigation_link">Shop</a></li>
+									<li> <a href="./aboutus.html" class="navigation_link">About</a></li>
+									<li> <a href="./log_in.html" class="navigation_link">Log In</a></li>
+								</ul>
+							</nav>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="promo_heder" data-aos="fade-down" data-aos-duration="900">
+		<div class="container">
+			<div class="promo_cont">
+				<div class="promo_title">Интернет магазин духов 'DQ'&#160;&#8212; Лучший выбор ароматов</div>
+				<div class="promo_disc">Широкий ассортимент духов для каждого</div> <a href=""><button
+						class="promo_btn">Выберите свой аромат</button></a>
+			</div>
+		</div>
+	</section>
+	<section class="second_promo" data-aos="fade-up">
+		<div class="container">
+			<div class="promo_sec_textblock">
+				<div class="promo_sec_text">Широкий выбор качественных духов в&#160;Интернет магазине &#171;DQ&#187;
+				</div>
+				<div class="promo_sec_disc">Интернет магазин &#171;DQ&#187;&#160;&#8212; ваш идеальный выбор для покупки
+					разнообразных духов. Наслаждайтесь широким ассортиментом и&#160;удобством покупки.</div>
+			</div>
+		</div>
+		<div class="promo_sec_image">
+			<picture>
+				<source srcset="./img/promoss.webp 1x" type="image/webp">
+				<source srcset="./img/promoss.jpg 1x" type="image/jpeg"> <img
+					class="promo_sec_image_img" src="./img/promoss.jpg" alt="">
+			</picture>
+		</div>
+	</section>
+	<section class="choise">
+		<div class="container">
+			<div class="choise_cont" data-aos="fade-up">
+				<div class="choise_title">Интернет-магазин духов DQ&#160;&#8212; ваш выбор!</div>
+				<div class="row choise_pics">
+					<div class="col-xxl-3 col-lg-4 col-md-5" data-aos="fade-up">
+						<div class="choise_pic"> <img src="./img/choise/tod.svg" alt="">
+							<div class="hover_text"> ыфвфывфывфвфывфывфыв</div>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-lg-4 col-md-5" data-aos="fade-up">
+						<div class="choise_pic"> <img src="./img/choise/bleu.svg" alt="">
+							<div class="hover_text"> ыфвфывфывфвфывфывфыв <a href="./index.html"
+									class="url"><button>Перейти к&#160;покупкам</button></a></div>
+						</div>
+					</div>
+					<div class="col-xxl-3 col-lg-4 col-md-5" data-aos="fade-up">
+						<div class="choise_pic"> <img src="./img/choise/xz.svg" alt="">
+							<div class="hover_text"> ыфвфывфывфвфывфывфыв</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="./js/index.bundle.js"></script>
+	<script src="./js/burgermenu.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>

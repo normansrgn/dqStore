@@ -46,4 +46,18 @@
       width: 100%; // Ширина подчеркивания при наведении
     }
   }
+
+
+
+  @media (max-width: 983px) {
+    .head_nav_list {
+        display: none;
+    } 
+
+    .burger_menu {
+        display: block;
+    }
+  }
+  
+
   
