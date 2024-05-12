@@ -57,6 +57,16 @@
     .burger_menu {
         display: block;
     }
+
+    ._header_cont {
+        justify-content: space-between;
+    }
+  }
+
+  @media (max-width: 594px) {
+    .logo_text {
+        display: none;
+    }
   }
   
 

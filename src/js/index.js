@@ -1,7 +1,7 @@
-import mobileNav from './modules/mobile-nav.js';
+import mobileNav from './modules/mobile-nav.jsx';
 mobileNav();
 
-import burgerMenu from './modules/burgermenu.js';
+import burgerMenu from './modules/burgermenu.jsx';
 burgerMenu();
 
 
