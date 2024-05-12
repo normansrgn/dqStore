@@ -1,59 +1,51 @@
 .promo_heder {
-    background-image: url("./../../img/Flower\ 1.svg");
-    background-position: center;
+  background-image: url("./../../img/Flower\ 1.svg");
+  background-position: center;
+  height: 479px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .promo_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    font-weight: 500;
     height: 479px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    .promo_cont {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      justify-content: center;
-      font-weight: 500;
-      height: 479px;
-  
-  
-      .promo_title {
-        font-size: 40px;
-        width: 700px;
-        text-align: center;
-      }
+
+    .promo_title {
+      font-size: 40px;
+      width: 700px;
+      text-align: center;
     }
   }
-  
-.promo_btn {
-    cursor: pointer;
-    padding: 13px;
-    font-size: 13px;
-    font-weight: 500;
-    background-color: #CF84A5;
-    border: none;
-        border: 1px solid #CF84A5;
-        color: white;
-        transition: 0.2s linear;
-        border-radius: 10px;
-
-    &.promo_btn:hover {
-        background: none;
-        border: 1px solid #CF84A5;
-        color: #CF84A5;
-        transition: 0.2s linear;
-
-    }
-
 }
 
+.promo_btn {
+  cursor: pointer;
+  padding: 13px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #cf84a5;
+  border: none;
+  color: white;
+  transition: 0.2s linear;
+  border-radius: 10px;
+  border: 1px solid #cf84a5;
+
+  &:hover {
+    background: none;
+    color: #cf84a5;
+  }
+}
 
 @media (max-width: 717px) {
   .promo_heder .promo_cont .promo_title {
-      width: auto;
+    width: auto;
   }
 
   .promo_heder .promo_cont .promo_title {
     font-size: 28px;
   }
 }
-
-
