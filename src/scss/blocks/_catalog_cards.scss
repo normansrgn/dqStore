@@ -1,27 +1,22 @@
-.card_catalogs {
-  margin-top: 100px;
-}
+.catalog {
+  &__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+  }
 
-.title_catalog {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.search {
+  &__input {
+    width: 300px;
     margin-top: 20px;
-    width: 280px;
-
-  &_input {
+    padding: 8px 0px 8px 16px;
     border-radius: 16px;
-    background-color: #31262e;
+    background-color: #31262E;
     border: none;
-    padding: 8px 0px 8px 20px;
-    width: 100%;
     color: white;
 
     &::placeholder {
-      font-size: 14px;
-      color: white;
+        color: white;
+        font-size: 14px;
     }
   }
 }
