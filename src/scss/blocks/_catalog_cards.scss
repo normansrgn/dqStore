@@ -10,13 +10,57 @@
     margin-top: 20px;
     padding: 8px 0px 8px 16px;
     border-radius: 16px;
-    background-color: #31262E;
+    background-color: #31262e;
     border: none;
     color: white;
 
     &::placeholder {
-        color: white;
-        font-size: 14px;
+      color: white;
+      font-size: 14px;
     }
+  }
+
+  &__row {
+    justify-content: space-between;
+  }
+
+  &__card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+
+   
+  }
+
+  &__image {
+    position: relative;
+    overflow: hidden;
+
+    &:hover .catalog__card_hover {
+        top: 0; /* перемещаем .tovar_card_hover вверх */
+      }
+
+  }
+
+  &__card_hover {
+    position: absolute;
+    top: -100%; /* начальное положение за пределами видимости */
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(35, 35, 35, 0.8); /* цвет фона */
+    padding: 10px 10px 0px;
+    backdrop-filter: blur(2px); /* размытие фона */
+    transition: top 0.3s ease; /* плавное изменение положения */
+    // pointer-events: none; /* блокируем события мыши, чтобы наведение на текст не считалось наведением на .tovar_card */
+  }
+
+  &__price_block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 22px;
   }
 }
