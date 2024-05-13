@@ -5,6 +5,10 @@
     margin-top: 70px;
   }
 
+  &__form {
+    margin-bottom: 30px;
+  }
+
   &__input {
     width: 300px;
     margin-top: 20px;
@@ -21,11 +25,13 @@
   }
 
   &__row {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   &__card{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
    
@@ -45,7 +51,7 @@
 
   &__card_hover {
     position: absolute;
-    top: -100%; /* начальное положение за пределами видимости */
+    top: -104%; /* начальное положение за пределами видимости */
     left: 0;
     right: 0;
     height: 100%;
@@ -61,6 +67,6 @@
     flex-direction: column;
     gap: 10px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
   }
 }
