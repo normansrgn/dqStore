@@ -20,3 +20,5 @@ function burgerMenu () {
 }
 
 burgerMenu();
+
+// export default burgerMenu;

@@ -1,0 +1,18 @@
+.catalog_promo {
+  border-top: 1px solid #3f3f3f;
+  border-bottom: 1px solid #3f3f3f;
+  padding-top: 57px;
+  padding-bottom: 57px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: bold;
+    width: 607px;
+  }
+}
