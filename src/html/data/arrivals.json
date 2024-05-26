@@ -1,29 +1,50 @@
 [
-	{
-		"url": "../index.html",
-		"img": "01",
-		"title": "Tom Ford Rose Prick",
-		"price": "1999 ₽  "
-	},
+  {
+    "url": "../index.html",
+    "img": "01",
+    "title": "Tom Ford Rose Prick",
+    "price": "1999 ₽  "
+  },
 
-	{
-		"img": "01",
-		"title": "Tom Ford Rose Prick",
-		"price": "1999 ₽  "
-	},
-	{
-		"img": "01",
-		"title": "Tom Ford Rose Prick",
-		"price": "1999 ₽  "
-	},
-	{
-		"img": "01",
-		"title": "Tom Ford Rose Prick",
-		"price": "1999 ₽  "
-	},
-	{
-		"img": "01",
-		"title": "Skullcandy - Crusher anc 2 wireless headphones",
-		"price": "$299.99"
-	}
+  {
+    "img": "02",
+    "title": "Tom Ford Rose Prick",
+    "price": "1999 ₽  "
+  },
+
+  {
+    "img": "01",
+    "title": "Tom Ford Rose Prick",
+    "price": "1999 ₽  "
+  },
+
+  {
+    "img": "01",
+    "title": "Tom Ford Rose Prick",
+    "price": "1999 ₽  "
+  },
+
+  {
+    "img": "01",
+    "title": "Skullcandy - Crusher anc 2 wireless headphones",
+    "price": "$299.99"
+  },
+
+  {
+    "img": "01",
+    "title": "Skullcandy - Crusher anc 2 wireless headphones",
+    "price": "$299.99"
+  },
+
+  {
+    "img": "01",
+    "title": "Skullcandy - Crusher anc 2 wireless headphones",
+    "price": "$299.99"
+  },
+
+  {
+    "img": "01",
+    "title": "Skullcandy - Crusher anc 2 wireless headphones",
+    "price": "$299.99"
+  }
 ]
