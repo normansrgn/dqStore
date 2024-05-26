@@ -49,6 +49,9 @@
         top: 0; /* перемещаем .tovar_card_hover вверх */
       }
 
+    & img {
+      width: 100%;
+    }  
   }
 
   &__card_hover {

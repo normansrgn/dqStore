@@ -1,5 +1,5 @@
 .catalog_promo {
-  border-top: 1px solid #3f3f3f;
+  border-top: 1 px solid #3f3f3f;
   border-bottom: 1px solid #3f3f3f;
   padding-top: 57px;
   padding-bottom: 57px;
@@ -10,9 +10,32 @@
     justify-content: space-between;
   }
 
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   &__title {
     font-size: 40px;
     font-weight: bold;
     width: 607px;
+  }
+
+  &__button {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 12px;
+    width: 284px;
+    border-radius: 10px;
+    background-color: #9c7656;
+    font-size: 17px;
+    border: 1px solid #9c7656;
+
+    &:hover {
+      background: none;
+      transition: 0.2s;
+    }
   }
 }
