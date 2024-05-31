@@ -13,25 +13,15 @@
 </head>
 
 <body>
-	<main>
-		<div class="catalog">
-			{% for product in products %}
-			<article class="col-xxl-3 col-lg-4 col-md-7 col-sm-11 " data-aos="fade-up">
-				<a href="products/{{ product.url }}" class="url">
-					<div class="catalog__card">
-						<div class="catalog__image">
-							<img src="img/catalog_cards/{{ product.img }}.jpg" alt="{{ product.title }}">
-						</div>
-						<div class="catalog__price_block">
-							<div class="catalog__name">{{ product.title }}</div>
-							<div class="catalog__price">{{ product.price }}</div>
-						</div>
-					</div>
-				</a>
-			</article>
-			{% endfor %}
-		</div>
-	</main>
+
+	@@include('blocks/header.html')
+
+	@@include('blocks/catalog/01_card_inf.html')
+
+	@@include('blocks/footer.html')
+
+
+
 	<script src="./js/index.bundle.js"></script>
 	<script src="./../js/burgermenu.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

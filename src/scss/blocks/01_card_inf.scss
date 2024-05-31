@@ -1,0 +1,44 @@
+.cardpage {
+  margin-top: 120px;
+
+  &__cont {
+    display: flex;
+    gap: 50px;
+
+    & img {
+      width: 400px;
+    }
+  }
+
+  &__tovar_inf {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 500;
+  }
+
+  &__title {
+    font-size: 50px;
+  }
+
+  &__price {
+    font-size: 37px;
+  }
+
+  &__btn {
+    background-color: #342931;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px;
+    width: 300px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: 500;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
