@@ -1,5 +1,4 @@
 .catalog {
-
   margin-bottom: 58px;
   &__title {
     font-size: 30px;
@@ -30,45 +29,29 @@
     justify-content: center;
   }
 
-  &__card{
+  &__card {
     margin-bottom: 20px;
     display: flex;
     // align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-   
-
-   
   }
 
   &__image {
     position: relative;
     overflow: hidden;
     height: 298px;
+    transition: 0.2s;
 
-
-    &:hover .catalog__card_hover {
-        top: 0; /* перемещаем .tovar_card_hover вверх */
-      }
+    &:hover {
+      opacity: 0.8;
+    }
 
     & img {
       width: 100%;
       max-width: 100%;
-    }  
-  }
-
-  &__card_hover {
-    position: absolute;
-    top: -104%; /* начальное положение за пределами видимости */
-    left: 0;
-    right: 0;
-    height: 100%;
-    background-color: rgba(35, 35, 35, 0.8); /* цвет фона */
-    padding: 10px 10px 0px;
-    backdrop-filter: blur(2px); /* размытие фона */
-    transition: top 0.3s ease; /* плавное изменение положения */
-    // pointer-events: none; /* блокируем события мыши, чтобы наведение на текст не считалось наведением на .tovar_card */
+    }
   }
 
   &__price_block {
@@ -79,7 +62,6 @@
     font-size: 20px;
   }
 }
-
 
 @media (max-width: 1243px) {
   .catalog_promo__container {
@@ -103,5 +85,4 @@
   .catalog_promo__title {
     font-size: 20px;
   }
-
 }
