@@ -44,15 +44,27 @@
     height: 298px;
     transition: 0.2s;
 
-    &:hover {
-      opacity: 0.8;
-    }
+    
 
     & img {
       width: 100%;
       max-width: 100%;
     }
   }
+
+  @media (hover:hover) {
+    &__image:hover {
+      opacity: 0.8;
+    }
+  }
+
+  @media (hover:none) {
+    &__image:active {
+      opacity: 0.8;
+    }
+  }
+
+
 
   &__price_block {
     display: flex;

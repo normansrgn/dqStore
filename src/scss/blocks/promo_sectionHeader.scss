@@ -33,13 +33,21 @@
   transition: 0.2s linear;
   border-radius: 10px;
   border: 1px solid #cf84a5;
+}
 
-  &:hover {
-    background: none;
+@media (hover: hover) {
+  .promo_btn:hover {
+  background: none;
     color: #cf84a5;
   }
 }
 
+@media (hover: none) {
+  .promo_btn:active {
+    background: none;
+    color: #cf84a5;
+  }
+}
 
 @media (max-width: 500px) {
   .promo_heder .promo_cont {
