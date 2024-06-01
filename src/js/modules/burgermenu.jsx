@@ -10,7 +10,7 @@ function burgerMenu () {
         burgerContainer.classList.toggle('open');
         burgerSpan.classList.toggle('btn-open-animation');
     });
-
+    
     burgerContainer.addEventListener('click', e => {
         if (!e.target.classList.contains('burger__content')) {
             burgerContainer.classList.remove('open');
