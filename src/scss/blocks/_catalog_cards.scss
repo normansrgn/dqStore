@@ -98,3 +98,9 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 610px) {
+  .catalog__input {
+    width: 95%;
+  }
+}

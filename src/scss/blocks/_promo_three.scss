@@ -31,9 +31,17 @@
     font-weight: 500;
     border: 1px solid #6f5a48;
     transition: 0.2s ease;
+  }
 
+  @media (hover: hover) {
+    .three_promo_btn:hover {
+      background: none;
+      color: #c8b39e;
+    }
+  }
 
-    &:hover {
+  @media (hover: none) {
+    .three_promo_btn:active {
       background: none;
       color: #c8b39e;
     }

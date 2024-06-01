@@ -22,13 +22,11 @@
     width: 607px;
   }
 
-  &__image  {
-
+  &__image {
     & img {
       width: 100%;
     }
   }
-
 
   &__button {
     cursor: pointer;
@@ -40,8 +38,18 @@
     background-color: #9c7656;
     font-size: 17px;
     border: 1px solid #9c7656;
+    // transition: 0.2s;
+  }
 
-    &:hover {
+  @media (hover: hover) {
+    &__button:hover {
+      background: none;
+      transition: 0.2s;
+    }
+  }
+
+  @media (hover: none) {
+    &__button:active {
       background: none;
       transition: 0.2s;
     }
