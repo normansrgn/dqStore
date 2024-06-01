@@ -8,9 +8,9 @@ function burgerMenu () {
 
     burgerBtn.addEventListener('click', (e) => {
         burgerContainer.classList.toggle('open');
-        burgerSpan.classList.toggle('btn-open-animation');
+        burgerSpan.classList.toggle('btn-open-aniмшщmation');
     });
-    
+
     burgerContainer.addEventListener('click', e => {
         if (!e.target.classList.contains('burger__content')) {
             burgerContainer.classList.remove('open');
