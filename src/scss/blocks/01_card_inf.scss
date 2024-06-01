@@ -54,9 +54,33 @@
     }
 
     & p {
-        font-size: 19px;
-        width: 1117px;
-        line-height: 1.5em;
+      font-size: 19px;
+      width: 1117px;
+      line-height: 1.5em;
+    }
+  }
+
+  &__more_link {
+    margin: 30px auto 20px auto;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px; // Подчеркивание немного ниже текста
+      height: 2px; // Высота подчеркивания
+      width: 0;
+      background-color: #cf84a5; // Цвет подчеркивания
+      // Цвет подчеркивания будет таким же, как и цвет текста
+      transition: width 0.3s ease; // Время и стиль анимации
+    }
+
+    &:hover:after {
+      width: 16.3%;
     }
   }
 }
