@@ -57,6 +57,7 @@
       font-size: 19px;
       width: 1117px;
       line-height: 1.5em;
+      max-width: 100%;
     }
   }
 
@@ -83,4 +84,37 @@
       width: 16.3%;
     }
   }
+}
+
+@media (max-width: 851px) {
+  .cardpage__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardpage__disc p {
+    width: auto;
+  }
+}
+
+@media (max-width: 777px) {
+
+    .cardpage__cont {
+        flex-direction: column;
+        // align-items: center;
+    }
+
+    .cardpage__btn  {
+        width: 100%;
+    }
+
+    .cardpage__disc {
+        align-items: center;
+
+    }
+
+    .cardpage__disc p {
+        text-align: center;
+    }
 }
