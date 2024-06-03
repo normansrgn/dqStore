@@ -84,7 +84,7 @@ gulp.task('html:docs', function () {
 				extensions: ['jpg', 'jpeg', 'png', 'gif', 'webp'],
 				retina: {
 					1: '',
-					2: '@2x',
+					// 2: '@2x',
 				},
 			})
 		)
