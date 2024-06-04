@@ -30,24 +30,29 @@
 
   &__button {
     cursor: pointer;
-    width: 300px;
-    padding: 8px;
-    border: 1px solid #c8b39e;
     border-radius: 10px;
-    background-color: #c8b39e;
-    transition: 0.2s ease-in;
+    // color: #fff;
+    background-color: #9c7656;
+    padding: 15px 12px;
+    width: 284px;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #6f5a48;
+    transition: 0.2s ease;
   }
 
   @media (hover: hover) {
     &__button:hover {
       background: none;
       transition: 0.1s ease-in;
+      color: #9c7656;
     }
   }
 
   @media (hover: none) {
     &__button:active {
       background: none;
+      color: #9c7656;
       transition: 0.1s ease-in;
     }
   }
